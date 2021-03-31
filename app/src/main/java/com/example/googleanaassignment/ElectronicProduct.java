@@ -81,7 +81,7 @@ public class ElectronicProduct extends AppCompatActivity {
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
     }
 
-    ///customEvent
+    //customEvent
     private void xEvent(String id, String name) {
         Bundle xEventBundle = new Bundle();
         xEventBundle.putString("id", id);
